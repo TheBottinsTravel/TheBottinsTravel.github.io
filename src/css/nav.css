@@ -1,0 +1,39 @@
+@import url("variable.css");
+
+nav {
+	background-color: var(--main-bg-color);
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+nav .logo-img {
+	width : 50px;
+	height : 40px;
+}
+
+nav .contain-social {
+	text-align: right;
+}
+
+nav .logo-social {
+	width : 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+nav .navbar-nav {
+	width: 95%;
+}
+
+nav .nav-item {
+	width: 25%;
+	text-align: center;
+}
+
+nav .nav-item .nav-link {
+	color: white !important;
+}
+
+nav .nav-item .nav-link:hover {
+	color: black !important;
+}
